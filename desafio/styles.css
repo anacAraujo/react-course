@@ -1,0 +1,47 @@
+.color-palette {
+    display: flex;
+    margin: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#color-black {
+    background-color: black;
+}
+
+
+#color-blue {
+    background-color: blue;
+}
+
+#color-green {
+    background-color: green;
+}
+
+#color-red {
+    background-color: red;
+}
+
+#color-yellow {
+    background-color: yellow;
+}
+
+#color-pink {
+    background-color: plum;
+}
+
+
+button {
+    margin: 10px;
+}
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+}
