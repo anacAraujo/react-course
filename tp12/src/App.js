@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { DisplayNumber } from './components/ex1/displayNumber';
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <body>
+        <h2>Exercicio 1:</h2>
+        <p>Somar e subtrair:</p>
+        <DisplayNumber></DisplayNumber>
+      </body>
     </div>
   );
 }
