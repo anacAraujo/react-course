@@ -19,8 +19,6 @@ try {
     const result = dividir(10, 0);
     console.log("Result:", result);
 
-
-
 } catch (error) {
     console.error("Error occurred:", error);
 }
