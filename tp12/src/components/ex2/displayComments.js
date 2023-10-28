@@ -1,8 +1,8 @@
-import {useState} from "react";
+import { useState } from "react";
 import AddComment from "./addComment";
 
 function DisplayComments() {
-   
+
     const [comments, setComments] = useState([]);
 
     //creiar um novo array a custa do primriro mais o novo
@@ -12,7 +12,7 @@ function DisplayComments() {
     }
 
     if (comments.length > 0) {
-        let display = comments.map((comment) => {return (<li>{comment}</li>)})
+        let display = comments.map((comment) => { return (<li>{comment}</li>) })
         return (
             <div>
                 <h3>Comments:</h3>
