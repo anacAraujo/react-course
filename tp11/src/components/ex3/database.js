@@ -1,8 +1,5 @@
-import React from'react'
-
-
-class Database {  
-constructor() {
+class Database {
+  constructor() {
     this.data = [
       {
         id: 1,
@@ -25,7 +22,7 @@ constructor() {
         gn: "m",
         tlf: "3519394456"
       },
-	  {
+      {
         id: 4,
         nome: "Maria Antonia",
         username: "mant1",
@@ -57,8 +54,8 @@ constructor() {
     //Qual o campo para testar se o objeto existe
     const field = Object.keys(searchObj);
 
-    return new Promise((fulfill,reject) => {
-      for (var i=0;i<this.data.length;i++) {
+    return new Promise((fulfill, reject) => {
+      for (var i = 0; i < this.data.length; i++) {
         if (this.data[i][field] === searchObj[field]) {
           found = true;
           foundUser = this.data[i];
