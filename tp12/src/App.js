@@ -1,30 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import { DisplayNumber } from './components/ex1/displayNumber';
+import { DisplayComments } from './components/ex2/displayComments';
+import { DisplayConsumo } from './components/ex3/displayConsumo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
-      <body>
         <h2>Exercicio 1:</h2>
         <p>Somar e subtrair:</p>
         <DisplayNumber></DisplayNumber>
-      </body>
+
+        <h2>Exercicio 2:</h2>
+        <DisplayComments></DisplayComments>
+
+        <h2>Exercicio 3:</h2>
+        <DisplayConsumo></DisplayConsumo>
+      </header>
     </div>
   );
 }
