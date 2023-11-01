@@ -6,8 +6,8 @@ function DisplayConsumo() {
   
 
   return (
-    <div className="App">
-      <h1>Controle de Consumo de Combustível</h1>
+    <div>
+      <h3>Controle de Consumo de Combustível</h3>
      
     </div>
   );
