@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Relogio from './components/ex1/relogio';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <div>
         <h1>TP 14</h1>
         <h2>Exercício 1:</h2>
+        <Relogio></Relogio>
 
         <h2>Exercício 2:</h2>
 
