@@ -4,7 +4,7 @@ export default function Relogio() {
     const [time, setTime] = useState(new Date());
 
     useEffect(() => {
-       setTimeout(() => {
+        setTimeout(() => {
             setTime(new Date());
         }, 1000);
 
