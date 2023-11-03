@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Relogio from './components/ex1/relogio';
 import ShowPosition from './components/ex2/showPosition';
+import ShowReceitas from './components/ex3/showReceitas';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <ShowPosition></ShowPosition>
 
         <h2>Exercício 3:</h2>
-
+        <ShowReceitas></ShowReceitas>
       </div>
     </div>
   );
