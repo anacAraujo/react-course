@@ -1,16 +1,16 @@
-class Receitas {
+class ReceitasData {
     constructor() {
         this.data = [
             {
-                "nome": "Cogumelos Salteados",
-                "ingredientes": [
+                nome: "Cogumelos Salteados",
+                ingredientes: [
                     { "nome": "Cogumelos", "qtd": 1, "medida": "kg" },
                     { "nome": "Alho", "qtd": 1, "medida": "dentes" },
                     { "nome": "Azeite", "qtd": 2, "medida": "colher sopa" },
                     { "nome": "Vinagre Balsamico", "qtd": 1, "medida": "colher cha" }
 
                 ],
-                "passos": [
+                passos: [
                     "Coloque a frigideira no fogo.",
                     "Coloque o azeite.",
                     "Adicione o alho picado aos bocados pequenos.",
@@ -20,8 +20,8 @@ class Receitas {
                 ]
             },
             {
-                "nome": "Moelas",
-                "ingredientes": [
+                nome: "Moelas",
+                ingredientes: [
                     { "nome": "Moelas", "qtd": 1, "medida": "Kg" },
                     { "nome": "Tomate", "qtd": 2, "medida": "Unidade" },
                     { "name": "Pimentos", "qtd": 1, "medida": "UNidade" },
@@ -30,7 +30,7 @@ class Receitas {
                     { "nome": "Vinho", "qtd": 1, "medida": "Copo" },
                     { "nome": "Azeite", "qtd": 3, "medida": "Colher" }
                 ],
-                "passos": [
+                passos: [
                     "Faça o refugado com a cebola o azeite e o alho e o pimento.",
                     "Junte a cenoura.",
                     "Deixe refugar e junte o vinho.",
@@ -45,4 +45,4 @@ class Receitas {
 
 }
 
-export default Receitas; 
+export default ReceitasData; 
