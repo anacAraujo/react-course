@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Relogio from './components/ex1/relogio';
+import ShowPosition from './components/ex2/showPosition';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Relogio></Relogio>
 
         <h2>Exercício 2:</h2>
+        <ShowPosition></ShowPosition>
 
         <h2>Exercício 3:</h2>
 
