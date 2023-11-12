@@ -52,6 +52,7 @@ class Database {
       }
     ];
   }
+
   findUser(searchObj) {
     //Flag para indicar se fulfill ou reject a promise
     let found = false;
@@ -77,6 +78,6 @@ class Database {
       }
     });
   }
-}  
+}
 
-export {Database} ; 
+export { Database }; 
