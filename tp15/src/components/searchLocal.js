@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import UsersList from "./users_list";
 
-function SearchForm(props) {
+function SearchLocal(props) {
     const [searchText, setSearchText] = useState("");
     const [searchResults, setSearchResults] = useState([]);
 
@@ -38,4 +38,4 @@ function SearchForm(props) {
     );
 }
 
-export default SearchForm;
+export default SearchLocal;

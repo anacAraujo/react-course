@@ -1,6 +1,7 @@
 import './App.css';
-import SearchForm from './components/search';
+import SearchLocal from './components/searchLocal';
 import { Database } from './components/database';
+import SearchAPI from './components/searchAPI';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <SearchForm usersData={usersData}></SearchForm>
+      <SearchLocal usersData={usersData}></SearchLocal>
+      <SearchAPI></SearchAPI>
     </div>
   );
 }
