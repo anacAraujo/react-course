@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./layout";
-import Contactos from "./contactos";
-import Produtos from "./produtos";
-import Sobre from "./sobre";
-import Eventos from "./eventos";
+import Layout from "./components/ex1/layout";
+import Contactos from "./components/ex1/contactos";
+import Produtos from "./components/ex1/produtos";
+import Sobre from "./components/ex1/sobre";
+import Eventos from "./components/ex1/eventos";
 
 export default function MyRoute() {
     return (
