@@ -1,27 +1,28 @@
 import { Outlet, Link } from "react-router-dom";
+import "../styles/styles.css";
 
 const Layout = () => {
     return (
-        <>
-            <nav>
-                <ul>
-                    <li>
+            <div>
+                <div className="flex-container">
+                    <div className="borderDivs flex-child">
                         <Link to="./contactos">Contactos</Link>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="borderDivs flex-child">
                         <Link to="./eventos">Eventos</Link>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="borderDivs flex-child">
                         <Link to="./produtos">Produtos</Link>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="borderDivs flex-child">
                         <Link to="./sobre">Sobre</Link>
-                    </li>
-                </ul>
-            </nav>
-        </>
+                    </div>
+                    < Outlet />
+                </div>
+            </div>
+            
     )
 }
-< Outlet />
+
 
 export default Layout;
