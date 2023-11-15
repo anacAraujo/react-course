@@ -10,10 +10,10 @@ export default function MyRoute() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route path="contactos" element={<Contactos />} />
-                    <Route path="produtos" element={<Produtos />} />
-                    <Route path="sobre" element={<Sobre />} />
-                    <Route path="eventos" element={<Eventos />} />
+                    <Route path="/contactos" element={<Contactos />} />
+                    <Route path="/produtos" element={<Produtos />} />
+                    <Route path="/sobre" element={<Sobre />} />
+                    <Route path="/eventos" element={<Eventos />} />
                 </Route>
             </Routes>
         </BrowserRouter>
