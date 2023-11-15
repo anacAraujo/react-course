@@ -1,0 +1,21 @@
+.borderDivs {
+  border-color: black;
+  border-style: solid;
+  width: 10vw;
+  height: 10vh;
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
